@@ -21,12 +21,12 @@ export const metadata: Metadata = {
   other: {
     'base:app_id': '697c9550c0622780c63f665b',
     'fc:miniapp': JSON.stringify({
-      version: "1",
-      imageUrl: "https://kalt4.vercel.app/logo.png",
+      version: "1", // Versiyon 1 veya next olmalı
+      imageUrl: "https://kalt4.vercel.app/logo.png", // 3:2 oranında olmalı
       button: {
-        title: "Open Hayriko",
+        title: "Open Hayriko", // Maksimum 32 karakter
         action: {
-          type: "launch_frame",
+          type: "launch_frame", // Bu tip zorunlu
           url: "https://kalt4.vercel.app/",
         }
       }
