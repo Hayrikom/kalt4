@@ -16,6 +16,7 @@ const sourceCodePro = Source_Code_Pro({
 export const metadata: Metadata = {
   title: "Hayriko's Base App",
   description: "Built with OnchainKit on Base",
+  manifest: "/manifest.json",
   other: {
     'base:app_id': '697c9550c0622780c63f665b',
   },
