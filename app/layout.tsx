@@ -20,6 +20,17 @@ export const metadata: Metadata = {
   manifest: '/manifest.json',
   other: {
     'base:app_id': '697c9550c0622780c63f665b',
+    'fc:miniapp': JSON.stringify({
+      version: "1",
+      imageUrl: "https://kalt4.vercel.app/logo.png",
+      button: {
+        title: "Open Hayriko",
+        action: {
+          type: "launch_frame",
+          url: "https://kalt4.vercel.app/",
+        }
+      }
+    }),
   },
 };
 

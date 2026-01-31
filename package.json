@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --no-lint",
     "start": "next start",
     "lint": "next lint"
   },
@@ -12,7 +12,7 @@
     "@coinbase/onchainkit": "latest",
     "@react-native-async-storage/async-storage": "^1.24.0",
     "@tanstack/react-query": "^5.81.5",
-    "next": "16.1.6",
+   "next": "15.1.6"
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "viem": "^2.31.6",

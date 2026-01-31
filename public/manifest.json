@@ -1,7 +1,7 @@
 {
   "name": "Hayriko's Base App",
-  "short_name": "HayrikoApp",
-  "description": "Built with OnchainKit on Base",
+  "short_name": "Hayriko",
+  "description": "My first official app on Base",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -12,5 +12,6 @@
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#0052FF",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "scope": "/"
 }
